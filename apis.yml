@@ -1,7 +1,29 @@
 aid: hungryhub
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hungryhub.png
 name: HungryHub
-description: HungryHub is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  HungryHub is a restaurant reservation and dining-deals platform operating
+  primarily in Bangkok, Thailand. It connects diners with fixed-price dining
+  packages — all-you-can-eat buffets, omakase, fine dining, rooftop venues,
+  hotel staycations and cruise dining — from luxury hotels and restaurants,
+  often at significant savings. The consumer marketplace runs on the web and
+  in mobile apps, while a separate business portal gives 2,000+ partner
+  restaurants and hotel chains a booking and package-management dashboard. The
+  company reports serving more than four million customers monthly and is a
+  portfolio company of 500 Global. HungryHub publishes no public developer or
+  partner API; this profile captures its public web, discovery and security
+  surface.
 url: https://raw.githubusercontent.com/api-evangelist/hungryhub/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Restaurants
+- Reservations
+- Dining
+- Hospitality
+- Marketplace
+- Food & Beverage
+- Thailand
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,18 @@ maintainers:
 common:
 - type: Website
   url: https://web.hungryhub.com
+- type: Blog
+  url: https://blog.hungryhub.com/
+- type: Support
+  url: https://hungryhub.zendesk.com/hc/en-us
+- type: PrivacyPolicy
+  url: https://hungryhub.zendesk.com/hc/en-us/articles/360009040074
+- type: LLMsTxt
+  url: llms/hungryhub-llms.txt
+- type: DomainSecurity
+  url: security/hungryhub-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
